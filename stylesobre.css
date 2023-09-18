@@ -1,0 +1,73 @@
+body {
+    background: url(https://i.pinimg.com/originals/ff/c3/8d/ffc38d9bce22d7a9eaa07b890e3af1a2.jpg);
+    background-size: cover;
+}
+
+.conteiner {
+    width: 100%;
+    display: flex;
+}
+
+nav {
+
+    display: flex;
+    margin: auto;
+}
+
+nav ul {
+    font-size: 25px;
+    display: flex;
+    color: white;
+    gap: 50px;
+    list-style: none;
+    font-family: 'Prompt', sans-serif;
+}
+
+nav ul li {
+    position: relative;
+    top: 30px;
+    left: 100px;
+   
+}
+nav li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none ;
+}
+
+.button a {
+    position: relative;
+    border: 1px solid red;
+    padding: 5px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.button a:hover {
+    color: yellow;
+    transition: 0.1s ease-in-out;
+}
+
+img {
+    display: flex;
+    width: 30%;
+}
+
+main {
+    text-align: left;
+    margin-right: 20px;
+    font-size: 50px;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+}
+
+video {
+    width: 50%;
+    border-radius: 15px;
+}
+
+.imglogo {
+    width: 60%;
+    position: relative;
+    right: 220px;
+}
